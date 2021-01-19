@@ -6,25 +6,176 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.banner{
-    height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)),
-        url("../img/banner.jpg");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.titulo_banner{
-    font-size: 50pt;
-}
+  @media (min-width: 768px) {
 
-.artscom{
-    text-transform: uppercase;
-    font-size: 50pt;
-}
+    /* Home tablet*/
+
+        .banner{
+            height: 80vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+                url("../img/banner.jpg");
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo_banner{
+            font-size: 50pt;
+        }
+
+        .artscom{
+            text-transform: uppercase;
+            font-size: 50pt;
+        }
+
+        .logo {
+            float: left;
+        }
+        .logo img{
+        width: 200px;
+        height: 50px;
+        }
+        
+        .rodape{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;  /* tamanho do vermelho*/
+            background-color: rgb(0, 0, 0);   /* cor de fundo*/
+        }
+        
+        /* escrito*/
+        .rodape p{
+            font-size: 10pt;
+            color: #fff;
+        }
+
+        .botao_banner{
+            background-color: #800000 !important;
+            color: #fff !important;
+        }
+
+  /* Fim do css Home tablet*/
+  }
+
+  @media (min-width: 1024px) {
+
+    /* Home notebook*/
+
+        .banner{
+            height: 80vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+                url("../img/banner.jpg");
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo_banner{
+            font-size: 50pt;
+        }
+
+        .artscom{
+            text-transform: uppercase;
+            font-size: 50pt;
+        }
+
+        .logo {
+            float: left;
+        }
+        .logo img{
+        width: 200px;
+        height: 50px;
+        }
+        
+        .rodape{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;  /* tamanho do vermelho*/
+            background-color: rgb(0, 0, 0);   /* cor de fundo*/
+        }
+        
+        /* escrito*/
+        .rodape p{
+            font-size: 10pt;
+            color: #fff;
+        }
+
+        .botao_banner{
+            background-color: #800000 !important;
+            color: #fff !important;
+        }
+
+        /* Fim do css Home */
+
+
+  }
+
+  @media (min-width: 1440px) {
+
+    /* Home desktop*/
+
+    .banner{
+            height: 80vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+                url("../img/banner.jpg");
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titulo_banner{
+            font-size: 50pt;
+        }
+
+        .artscom{
+            text-transform: uppercase;
+            font-size: 50pt;
+        }
+
+        .logo {
+            float: left;
+        }
+        .logo img{
+        width: 200px;
+        height: 50px;
+        }
+        
+        .rodape{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;  /* tamanho do vermelho*/
+            background-color: rgb(0, 0, 0);   /* cor de fundo*/
+        }
+        
+        /* escrito*/
+        .rodape p{
+            font-size: 10pt;
+            color: #fff;
+        }
+
+        .botao_banner{
+            background-color: #800000 !important;
+            color: #fff !important;
+        }
+
+  /* Fim do css Home */
+  }
